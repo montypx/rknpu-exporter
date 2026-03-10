@@ -1,4 +1,4 @@
-FROM rust:1.73.0-slim as build
+FROM rust:1.89-slim as build
 
 RUN rustup target add aarch64-unknown-linux-musl && \
     apt update && \
