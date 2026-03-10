@@ -9,6 +9,8 @@ on:
       - 'Cargo.toml'
       - 'Cargo.lock'
       - 'src/**'
+      - '.cargo/**'
+  workflow_dispatch:
 
 jobs:
   on-success:
